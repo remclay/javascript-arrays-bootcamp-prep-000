@@ -23,12 +23,12 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
   return array;
 }
 function removeElementFromBeginningOfArray(array){
-  array.slice(1)
-  return array
+  array.slice(1);
+  return array;
 }
 function destructivelyRemoveElementFromEndOfArray(array){
-  chocolateBars.pop
-  chocolateBars
+  array.pop;
+  return array;
 }
 function removeElementFromEndOfArray(array){
   chocolateBars.slice(0, chocolateBars.length -1)
